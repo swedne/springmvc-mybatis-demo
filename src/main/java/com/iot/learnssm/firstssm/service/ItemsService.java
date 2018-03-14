@@ -29,9 +29,9 @@ public interface ItemsService {
 
     /**
      * <p>Title: updateItems</p>
-     * <p>Description: </p>
-     *
-     * @param id 修改商品的id
+            * <p>Description: </p>
+            *
+            * @param id 修改商品的id
      * @param itemsCustom 修改的商品信息
      * @throws Exception
      */

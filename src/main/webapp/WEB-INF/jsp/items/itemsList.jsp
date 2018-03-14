@@ -14,6 +14,7 @@
             document.itemsForm.submit();
         }
         function queryItems() {
+            //zrz 参数是怎么传递过去的
             //提交form
             document.itemsForm.action = "${pageContext.request.contextPath }/items/queryItems.action";
             document.itemsForm.submit();
@@ -30,6 +31,7 @@
     <table width="100%" border=1>
         <tr>
             <td>
+                //zrz itemsCustom.name是什么意思
                 商品名称：<input name="itemsCustom.name"/>
                 商品类型：
                 <select name="itemtype">
